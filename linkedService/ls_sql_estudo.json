@@ -1,0 +1,19 @@
+{
+	"name": "ls_sql_estudo",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=server-estudo.database.windows.net;Initial Catalog=db-estudo;User ID=eliseubueno",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_akv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "pwd-sqldb-estudo"
+			}
+		}
+	}
+}

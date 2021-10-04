@@ -1,0 +1,9 @@
+{
+	"name": "adf-estudo-eliseu",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dc27be18-b199-43a8-b3fa-da044639c94d",
+		"tenantId": "3245bc8a-a3a7-40b4-91dd-408347fc3701"
+	}
+}
